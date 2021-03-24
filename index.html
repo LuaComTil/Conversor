@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang='pt-br'></html>
+<html>
+	<head>
+        <meta charset="UTF-8">
+        <link rel='stylesheet' href='css/reset.css'>
+        <link rel='stylesheet' href='css/style.css'>
+        <link rel='stylesheet' href='css/header.css'>
+        <link rel='stylesheet' href='css/main.css'>
+        <script src='js/script.js'></script>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet">
+        <title>Conversor</title>
+        <link rel="icon" href ='img/icon.png' type="image/png"> 
+    </head>
+    <body class='scroll-settings'>
+        <div class='background'></div>
+        <header class="header">
+        <a class='header-title' href="index.html">Conversor</a>
+        </header>
+        <main class='margin'>
+            <div class='instruction-container'>
+             <p class='instruction'>Converta seu texto para um texto formatado, maiúsculo e com linhas de espaçamento</p>
+            </div>
+            <div class='main-container'>
+                <div class='old-container'>
+                    <textarea autofocus class='old-text'id='oldText'required placeholder='Cole o texto aqui.'></textarea>
+                    <button class='convert'onclick='convert()'>Converter</button>
+                </div>
+                <div class='new-container'>
+                    <textarea class='new-text'id='newText'required placeholder='O texto convertido aparecerá aqui.'></textarea>
+                    <button class='copy'onclick='copy()'>Copiar texto</button>
+                </div>
+            </div>
+            <div class='example-container'>
+            <p class='example-title'>Exemplo de conversão</p>
+            </div>
+            <div class='old-and-newexample'>
+                <div class='old-example'>
+                    <textarea readonly class='old-example-text'>Este é um exemplo&#010&#010dE tExTo QuE VoCê&#010PODE CONVERTER</textarea>
+                </div>
+                <div class='new-example'>
+                    <textarea readonly class='new-example-text'>ESTE É UM EXEMPLO&#010&#010DE TEXTO QUE VOCÊ PODE&#010&#010CONVERTER</textarea>
+                </div>
+            </div>
+        </main>
+        <footer class='footer'>
+            <div class='linkedin-icon'></div>
+            <a class='footer-text' href="https://www.linkedin.com/in/luã/" target='_blank'>Criado por Luã de Freitas Ramos</a>
+        </footer>
+    </div>
+    </body>
+</html>
