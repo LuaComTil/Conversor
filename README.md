@@ -1,2 +1,2 @@
 # Conversor
- A project to convert text, specifically music into a format for a specific projector program
+A project I did for my local church that converts the text of a song to have line breaks every sentence.
