@@ -6,7 +6,7 @@ function convert(){
     //CONVERTENDO PARA MAIÚSCULO
     convertText = convertText.toUpperCase();
     //CONVERTENDO O ESPAÇAMENTO
-    convertText=convertText.replace(/\n\n\n/g, '\n'); //Só Deus sabe como isso funciona
+    convertText=convertText.replace(/\n\n\n/g, '\n');
     convertText=convertText.replace(/\n\n/g, '\n');
     convertText=convertText.replace(/\n/g, '\n\n');
     //DEVOLVENDO VALOR
